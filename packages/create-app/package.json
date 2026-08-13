@@ -12,7 +12,7 @@
     "agentic"
   ],
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node init && node build.mjs",
     "test": "node --import tsx --test --test-timeout=120000 src/**/*.test.ts",
     "typecheck": "tsc --noEmit"
   },

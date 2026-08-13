@@ -109,7 +109,7 @@
     }
   },
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node init && node build.mjs",
     "watch": "node watch.mjs",
     "test": "jest --config jest.config.cjs",
     "typecheck": "tsc --noEmit"

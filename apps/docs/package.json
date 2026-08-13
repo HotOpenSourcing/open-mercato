@@ -3,9 +3,9 @@
   "version": "0.6.5",
   "private": true,
   "scripts": {
-    "dev": "docusaurus start",
-    "start": "docusaurus build && docusaurus serve",
-    "build": "docusaurus build",
+    "dev": "node init && docusaurus start",
+    "start": "node init && docusaurus build && docusaurus serve",
+    "build": "node init && docusaurus build",
     "serve": "docusaurus serve",
     "clean": "rimraf build .docusaurus"
   },

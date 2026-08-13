@@ -41,8 +41,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -106,7 +104,6 @@ package-lock.json
 
 # Claude Code MCP config (may contain API keys)
 .mcp.json
-.vscode/settings.json
 packages/cache/node_modules/*
 newrelic_agent.log
 /generated/
@@ -122,7 +119,6 @@ docker-compose.*.local.yml
 
 # OpenCode local config (generated at runtime, may contain secrets)
 docker/opencode/opencode.jsonc
-.vscode/launch.json
 
 # Local npm registry (Verdaccio)
 .npmrc
@@ -162,3 +158,4 @@ apps/mercato/src/module-facts.generated.json
 
 # skills CLI lockfile (external skills are re-resolved on each install)
 skills-lock.json
+config.bat
